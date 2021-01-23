@@ -33,7 +33,7 @@
   </p>
 
   <p>
-    Suggestions and ideas for improvements are <b>ABSOLUTELY WELCOM</b>, and
+    Suggestions and ideas for improvements are <b>ABSOLUTELY WELCOME</b>, and
     may be communicated as Issues on GitHub at
     <a target="_blank" href="https://github.com/dannyniu/Ouch/issues">here</a>.
   </p>
