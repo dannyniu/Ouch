@@ -1,0 +1,6 @@
+# Emacs artifact.
+*~
+
+# Build directory.
+build/*
+!build

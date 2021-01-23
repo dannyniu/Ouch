@@ -1,0 +1,17 @@
+code,
+code pre {
+  background-color: rgba(128, 128, 128, 0.25);
+}
+
+li {
+  margin: 3mm 0mm;
+}
+
+table {
+  border-collapse:  collapse;
+}
+
+td, th {
+  padding:  1ex;
+  border:   solid thin;
+}
