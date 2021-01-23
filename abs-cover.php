@@ -35,7 +35,7 @@
   <p>
     Suggestions and ideas for improvements are <b>ABSOLUTELY WELCOM</b>, and
     may be communicated as Issues on GitHub at
-    <a href="https://github.com/dannyniu/Ouch/issues">here</a>.
+    <a target="_blank" href="https://github.com/dannyniu/Ouch/issues">here</a>.
   </p>
   
   <p>
