@@ -164,6 +164,12 @@ int pipe(int fd[2]);</pre></code>
   </li>
 
   <li>
+    Additionally for write, if all reading ends had been closed, a
+    <code>SIGPIPE</code> will be sent to the thread requesting the write,
+    and <code>errno</code> will be set to <code>EPIPE</code> on that thread.
+  </li>
+
+  <li>
     Successful reads return the number of bytes been read, which may be
     less than <code>len</code> if not enough data is immediately available.
   </li>

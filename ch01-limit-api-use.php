@@ -56,9 +56,11 @@
 
 <p>
   Suppose a program use multi-threading to issue and manage multiple
-  network requests, it will be almost impossible for the kernel to identify the
-  thread that should receive SIGURG, when a TCP packet with "urgent" bit is
-  received. In reality, the "urgent" flag is obsolete, and networking libraries
+  network requests, it will be almost impossible for the kernel to identify
+  the thread that should receive <code>SIGURG</code>, when a TCP packet with
+  "urgent" bit is received (on the 3 implementations I surveyed, Darwin,
+  FreeBSD, and Linux, all sends <code>SIGURG</code> to the main thread).
+  In reality, the "urgent" flag is obsolete, and networking libraries
   are almost unusable with multi-threaded programs if they don't support
   "connection pool".
 </p>
